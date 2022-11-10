@@ -1,4 +1,7 @@
-﻿int[,] GetArray(int m, int n, int minValue = -99, int maxValue = 99)
+﻿// Программа задает массив и находит строку с наименьшей суммой элементов и 
+// выводит номер строки и сумму.
+
+int[,] GetArray(int m, int n, int minValue = -99, int maxValue = 99)
 {
     int[,] result = new int[m, n];
     for (int i = 0; i < m; i++)

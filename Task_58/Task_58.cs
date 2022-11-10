@@ -1,4 +1,7 @@
-﻿int[,] GetArray(int m, int n, int minValue = -99, int maxValue = 99)
+﻿// Программа задает две матрицы и выводит результат их умножения.
+// Матрицы генерируются совместные.
+
+int[,] GetArray(int m, int n, int minValue = -99, int maxValue = 99)
 {
     int[,] result = new int[m, n];
     for (int i = 0; i < m; i++)

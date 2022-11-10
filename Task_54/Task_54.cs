@@ -1,4 +1,6 @@
-﻿int[,] GetArray(int m, int n, int minValue = -99, int maxValue = 99)
+﻿// Программа генерирует массив и упорядычивает строки по убыванию.
+
+int[,] GetArray(int m, int n, int minValue = -99, int maxValue = 99)
 {
     int[,] result = new int[m, n];
     for (int i = 0; i < m; i++)
